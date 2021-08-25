@@ -1,0 +1,32 @@
+
+Packages - Package is the collection of classes.
+
+	It avoids the ambiguity between two same classes.
+
+If we have to create our own package then type
+	package mypack(package name);
+
+-d = create the package
+
+   . means create package in same directory.
+
+====================================================================================
+
+Now create package in another directory
+
+D:\MayFullStack\javac -d C:\. Welcome.java 
+
+Package is created...
+
+=======================================================================================
+
+Access package from another directory or drive...
+
+Here,mypack is created in C drive to access package from C drive we need to set class path of C drive...
+
+D:\MayFullStack\set classpath=%classpath%;C:\;
+
+D:\MayFullStack\javac TestPackage.java
+
+D:\MayFullStack\java TestPackage
+======================================================================================
