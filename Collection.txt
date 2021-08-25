@@ -1,0 +1,27 @@
+ Collection- It is a framework.
+API - Application Programming Interface
+
+Interface			Classes			Methods
+======================================================================
+List			LinkedList
+			ArrayList
+
+Set			TreeSet
+			HashSet
+
+Map			Treemap
+			HashMap
+
+List is order collection allows duplicate elements.
+
+Set don't allow the duplicate values.
+1) Tree set - data in sorted order.
+2) Hash set - data in unsorted order.
+
+Tree Set - If u are using TreeSet then implements Comparable and override compareTo() for sorting and unique object...
+comparable - it is needed in TreeSet.
+	compareTo() method is use to check the equality of two objects.
+
+hashcode and euals() method is very very important for Interview point of view.
+
+Hash Set - If u are using HashSet then override hashCode() and equals() method to get unique object ...
